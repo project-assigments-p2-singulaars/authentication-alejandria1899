@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f4f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-container {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 0.938rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border: 0.125 solid #dfe3e8;
+    width: 100%;
+    max-width: 37.5rem;
+    text-align: center;
+    margin: auto;
+}
+
+.dashboard-container h1 {
+    margin-bottom: 1.25rem;
+    font-size: 2.5em;
+    color: #2c3e50;
+    letter-spacing: 0.063rem;
+}
+
+.dashboard-container p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.btn-logout {
+    padding: 0.938rem 1.875;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.btn-logout:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}

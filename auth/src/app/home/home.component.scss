@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0e5ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 3.125rem;
+    border-radius: 0.938rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border: 0.125rem solid #dfe3e8;
+}
+
+.landing-container h1 {
+    margin-bottom: 1.875rem;
+    font-size: 2.5em;
+    color: #2c3e50;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 0.625rem; 
+}
+
+.btn {
+    padding: 0.938rem 1.875rem;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 1.875rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.btn-login {
+    background-color: #8e44ad;
+}
+
+.btn-login:hover {
+    background-color: #732d91;
+    transform: scale(1.05);
+}
+
+.btn-register {
+    background-color: #3498db;
+}
+
+.btn-register:hover {
+    background-color: #1e73b7;
+    transform: scale(1.05);
+}
